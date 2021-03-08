@@ -14,8 +14,6 @@ p  {margin-left:0px;}
 
 body
 {
-  border: 10px;
-  padding-left:25px;
   background-image:url("https://bennobod.github.io/bgimg.jpg");
   background-repeat:no-repeat;
   background-position:left top;
@@ -44,7 +42,7 @@ div.plain
   border:3px solid black;
   margin:10px;
   margin-top:25px;
-  margin-left:100px;
+  margin-left:50px;
 }
 div.plain:hover
 {
