@@ -1,0 +1,147 @@
+/*
+    file: projects-website-stylesheet.css
+    author: Benno Bodmann
+    Created 2021 by Benno Bodmann
+
+    Cascading Style Sheets file for the CMPC Web-Sites
+
+    modified: 20210304
+*/
+
+hr {color:sienna;}
+h1 {background-color:#6495ed;}
+p  {margin-left:0px;}
+
+body
+{
+  background-image:url("https://bennobod.github.io/images/bgimg.jpg");
+  background-repeat:no-repeat;
+  background-position:left top;
+}
+
+div.date
+{
+  position:absolute;
+  top:0px;
+  right:0px;
+  border:2px solid blue;
+  background-color:#eeeeee;
+  width:400px;
+  height:20px;
+  text-align:center;
+}
+
+div.plain
+{
+  background-color:#fffaf0;
+  background-color:transparent;
+  /*opacity:0.6;*/
+  width:800px;
+  /*height:800px;*/
+  padding:50px;
+  border:3px solid black;
+  margin:10px;
+  margin-top:25px;
+  margin-left:50px;
+}
+div.plain:hover
+{
+  background-color:#fffaf0;
+  /* opacity:0.8;
+  filter:alpha(opacity=80); */
+}
+div.menu
+{
+  position:relative;
+  width:100%;
+}
+
+ul.menu
+{
+  position:absolute;
+  right:0px;
+  /*float:right;*/
+  width:588px;
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+li {display:inline;}
+
+a.menu
+{
+  float:left;
+  width:6em;
+  text-decoration:none;
+  color:white;
+  background-color:purple;
+  padding:0.2em 0.6em;
+  border-right:2px solid white;
+}
+a.menu:hover {background-color:#ff3300;}
+a.current
+{
+  float:left;
+  width:6em;
+  text-decoration:none;
+  color:white;
+  background-color:#33994a;
+  padding:0.2em 0.6em;
+  border-right:2px solid white;
+  border-left:2px solid white;
+}
+
+img.tiles
+{
+  opacity:0.4;
+  filter:alpha(opacity=40);
+}
+img.tiles:hover
+{
+  opacity:1.0;
+  filter:alpha(opacity=100);
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color: #3e8e41}
+.button:active {
+  /* background-color: #3e8e41; */
+  background-color: #32CD32; /* LimeGreen */
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+address
+{
+  margin-left:20px;
+  padding-left:5px;
+  width:550px;
+}
+address:hover 
+{
+  background-color:#eee8e0;
+}
