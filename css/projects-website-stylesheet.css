@@ -6,6 +6,7 @@
     Cascading Style Sheets file for the CMPC Web-Sites
 
     modified: 20210304
+    revision: 20210415
 */
 
 hr {color:sienna;}
@@ -39,7 +40,7 @@ div.plain
   width:800px;
   /*height:800px;*/
   padding:50px;
-  border:3px solid black;
+  border:3px solid brown;
   margin:10px;
   margin-top:25px;
   margin-left:50px;
