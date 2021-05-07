@@ -24,11 +24,11 @@ div.date
 {
   position:absolute;
   top:0px;
-  right:5px;
+  right:10px;
   border:2px solid sienna;
   background-color:#eeeeee;
-  width:600px;
-  height:30px;
+  width:400px;
+  height:40px;
   text-align:center;
 }
 
